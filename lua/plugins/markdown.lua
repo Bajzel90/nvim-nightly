@@ -18,4 +18,5 @@ require("render-markdown").setup({
 	},
 	bullet = { enabled = true, icons = { "", "" } },
 	render_modes = { "n", "c", "t" },
+	latex = { enabled = false },
 })

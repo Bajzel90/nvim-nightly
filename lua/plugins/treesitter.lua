@@ -24,9 +24,12 @@ local ts_parsers = {
 	"markdown",
 	"markdown_inline",
 	"ninja",
+	"norg",
 	"python",
+	"regex",
 	"rst",
 	"rust",
+	"scss",
 	"sql",
 	"svelte",
 	"toml",
@@ -34,6 +37,7 @@ local ts_parsers = {
 	"typescript",
 	"typst",
 	"vim",
+	"vue",
 	"yaml",
 }
 
