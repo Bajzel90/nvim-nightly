@@ -13,7 +13,7 @@ vim.pack.add({
 
 local opts = {
 	auto_generate = true, -- Auto generates LSP info when detected in CWD
-	auto_build = true, -- Auto builds on save
+	auto_build = false, -- Auto builds on save
 	engine_path = engine_path, -- Path to your UnrealEngine source directory
 	build_type = "Development", -- Build type: "DebugGame", "Development", or "Shipping"
 	with_editor = true, -- Build with editor
