@@ -39,6 +39,7 @@ Snacks.setup({
 			},
 		},
 	},
+	quickfile = { enabled = true },
 })
 
 -- stylua: ignore start
