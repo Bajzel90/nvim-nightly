@@ -24,7 +24,6 @@ local ts_parsers = {
 	"markdown",
 	"markdown_inline",
 	"ninja",
-	"norg",
 	"python",
 	"regex",
 	"rst",
