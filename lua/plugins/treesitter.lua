@@ -28,6 +28,7 @@ local ts_parsers = {
 	"regex",
 	"rst",
 	"rust",
+	"ron",
 	"scss",
 	"sql",
 	"svelte",

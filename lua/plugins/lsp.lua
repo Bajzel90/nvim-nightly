@@ -11,6 +11,7 @@ require("mason-lspconfig").setup()
 require("mason-tool-installer").setup({
 	ensure_installed = {
 		"bashls",
+		"bacon-ls",
 		"clangd",
 		"clang-format",
 		"cpplint",
@@ -22,6 +23,7 @@ require("mason-tool-installer").setup({
 		"prettier",
 		"pyright",
 		"ruff",
+		"rust-analyzer",
 		"shellcheck",
 		"shfmt",
 		"sqlfluff",
