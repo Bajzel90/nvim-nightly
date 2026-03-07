@@ -1,6 +1,12 @@
 -- UnrealEngine.nvim - Native Neovim 0.12 Plugin Configuration
 -- Provides integration with Unreal Engine for LSP, building, and editor launching
 
+-- Start Neovim server for UE5 integration (allows UE5 to open files in this instance)
+local socket_path = "/tmp/nvim.sock"
+if vim.fn.filereadable(socket_path) == 0 then
+	vim.fn.serverstart(socket_path)
+end
+
 local engine_path = "/home/adam/programy/UnrealEngine"
 if vim.fn.isdirectory(engine_path) == 0 then
 	return
