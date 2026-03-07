@@ -12,6 +12,7 @@ vim.keymap.set("n", "Y", "y$", { desc = "Yank to end of line" })
 
 -- LSP Hover documentation
 vim.keymap.set("n", "K", vim.lsp.buf.signature_help, { desc = "LSP Hover Documentation" })
+vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "LSP Hover Documentation" })
 vim.keymap.set("i", "<C-k>", vim.lsp.buf.hover, { desc = "LSP Hover Documentation" })
 
 vim.keymap.set("n", "<leader>e", function()
