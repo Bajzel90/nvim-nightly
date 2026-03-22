@@ -1,5 +1,7 @@
 vim.pack.add({
-	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
+	{ src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
+	{ src = "https://github.com/selimacerbas/live-server.nvim" },
+	{ src = "https://github.com/selimacerbas/markdown-preview.nvim" },
 })
 
 require("render-markdown").setup({
@@ -19,4 +21,12 @@ require("render-markdown").setup({
 	bullet = { enabled = true, icons = { "", "" } },
 	render_modes = { "n", "c", "t" },
 	latex = { enabled = false },
+})
+
+require("markdown_preview").setup({
+	-- all optional; sane defaults shown
+	instance_mode = "multi", -- "takeover" (one tab) or "multi" (tab per instance)
+	port = 0, -- 0 = auto (8421 for takeover, OS-assigned for multi)
+	open_browser = true,
+	debounce_ms = 300,
 })
