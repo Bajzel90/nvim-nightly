@@ -1,6 +1,7 @@
 -- Text formatting settings
 vim.opt_local.wrap = true
 vim.opt_local.spell = false
+vim.opt_local.breakindent = true
 
 -- Keymaps
 local map = vim.keymap.set
