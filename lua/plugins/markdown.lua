@@ -28,5 +28,6 @@ require("markdown_preview").setup({
 	instance_mode = "multi", -- "takeover" (one tab) or "multi" (tab per instance)
 	port = 0, -- 0 = auto (8421 for takeover, OS-assigned for multi)
 	open_browser = true,
+	mermaid_renderer = "rust",
 	debounce_ms = 300,
 })
