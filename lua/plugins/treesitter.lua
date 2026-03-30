@@ -9,6 +9,7 @@ local ts_parsers = {
 	"cmake",
 	"cpp",
 	"css",
+	"diff",
 	"dockerfile",
 	"fish",
 	"gitignore",
