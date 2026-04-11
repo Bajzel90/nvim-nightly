@@ -26,6 +26,7 @@ require("mason-tool-installer").setup({
 		"rust-analyzer",
 		"shellcheck",
 		"shfmt",
+		"sqlfmt",
 		"sqlfluff",
 		"stylua",
 		"svelte",

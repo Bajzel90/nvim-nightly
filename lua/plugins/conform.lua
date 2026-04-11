@@ -37,9 +37,9 @@ conform.setup({
 		rust = { "rustfmt", lsp_format = "fallback" },
 		javascript = { "prettier", stop_after_first = true },
 		sh = { "shfmt" },
-		md = { "prettier", "markdownlint-cli2", "markdown-toc" },
+		markdown = { "prettier", "markdownlint-cli2", "markdown-toc" },
 		["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" },
-		sql = { "sqlfluff" },
+		sql = { "sqlfmt" },
 		svelte = { "prettier" },
 	},
 })

@@ -1,7 +1,7 @@
 vim.pack.add({
 	{ src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
 	{ src = "https://github.com/selimacerbas/live-server.nvim" },
-	{ src = "https://github.com/selimacerbas/markdown-preview.nvim" },
+	{ src = "https://github.com/selimacerbas/markdown-preview.nvim", version = "main" },
 })
 
 require("render-markdown").setup({

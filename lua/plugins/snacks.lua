@@ -25,9 +25,10 @@ Snacks.setup({
 		},
 	},
 	indent = { enabled = true },
-	notifier = { enabled = true },
+	notifier = { enabled = false },
 	terminal = { enabled = true },
 	picker = {
+		enabled = true,
 		sources = {
 			files = {
 				hidden = true,

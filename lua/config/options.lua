@@ -25,7 +25,7 @@ vim.opt.hlsearch = false -- Don't highlight search results
 
 -- Visual settings
 vim.opt.signcolumn = "yes" -- Always show sign column
-vim.opt.colorcolumn = "100" -- Show column at 100 characters
+vim.opt.colorcolumn = "88" -- Show column at 88 characters
 -- vim.opt.pumblend = 10                              -- Popup menu transparency
 
 -- File handling
@@ -59,3 +59,5 @@ vim.opt.splitright = true -- Vertical splits go right
 
 -- Better diff options
 vim.opt.diffopt:append("linematch:60")
+
+require("vim._core.ui2").enable({})

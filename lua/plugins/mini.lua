@@ -6,6 +6,8 @@ require("mini.ai").setup({ n_lines = 500 })
 require("mini.surround").setup()
 require("mini.pairs").setup()
 require("mini.icons").setup()
+-- require("mini.map").setup()
+-- require("mini.pick").setup()
 
 local miniclue = require("mini.clue")
 miniclue.setup({
@@ -39,7 +41,7 @@ miniclue.setup({
 	},
 	window = {
 		-- Show window immediately
-		delay = 0,
+		delay = 500,
 
 		config = {
 			width = "auto",
